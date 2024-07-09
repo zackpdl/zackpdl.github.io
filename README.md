@@ -193,7 +193,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Puran',
     description: '',
     imageURL: '',
   },
@@ -478,7 +478,7 @@ You can customize the meta tags for SEO in `seo`.
 const CONFIG = {
   // ...
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Puran',
     description: '',
     imageURL: '',
   },
@@ -746,3 +746,4 @@ To contribute, see the [Contributing guide](https://github.com/arifszn/gitprofil
 ## 📄 License
 
 [MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
+# Puran
