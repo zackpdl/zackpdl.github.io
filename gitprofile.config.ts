@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'zackpdl', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -25,13 +25,13 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['zackpdl/gitprofile', 'zackpdl/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
+  /*     projects: [
         {
           title: 'Project Name',
           description:
@@ -48,57 +48,56 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
-      ],
+      ], */
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Puran Paodensakul',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
+    linkedin: 'zackpdl',
+    twitter: 'zackpdl',
+    //mastodon: 'arifszn@mastodon.social',
+    //researchGate: '',
+    //facebook: '',
+    instagram: 'zackpdl',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+   // medium: 'zackpdl',
+   // dev: 'zackpdl',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://www.zackpdl.com',
+    phone: '0951272240',
+    email: 'puranpoudelzack@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+   // 'PHP',
+    'Python',
+    'Java',
     'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
+   // 'Node.js',
+   // 'Nest.js',
     'MySQL',
-    'PostgreSQL',
+    //'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    //'Tailwind',
   ],
-  experiences: [
+/*   experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -113,28 +112,28 @@ const CONFIG = {
       to: 'August 2021',
       companyLink: 'https://example.com',
     },
-  ],
+  ], */
   certifications: [
     {
-      name: 'Lorem ipsum',
+      name: 'General Educational Development Test',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      year: 'March 2023',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Assumption University',
+      degree: 'Computer Science',
+      from: '2023',
+      to: 'Present',
     },
-    {
+/*     {
       institution: 'Institution Name',
       degree: 'Degree',
       from: '2012',
       to: '2014',
-    },
+    }, */
   ],
   publications: [
     {
@@ -171,7 +170,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -234,11 +233,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
